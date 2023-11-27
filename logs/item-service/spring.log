@@ -527,3 +527,23 @@ com.mysql.cj.exceptions.CJException: Unknown database 'item-service'
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.75.jar:9.0.75]
 	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
 
+16:07:13:908  INFO 7104 --- [main] org.javatop.item.ItemApplication         : Starting ItemApplication using Java 11.0.21 on WIN-20231112VVY with PID 7104 (D:\IDEA Workplace\other-study\hmall\item-service\target\classes started by Administrator in D:\IDEA Workplace\other-study\hmall)
+16:07:13:910  INFO 7104 --- [main] org.javatop.item.ItemApplication         : The following 1 profile is active: "local"
+16:07:15:086  INFO 7104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+16:07:15:095  INFO 7104 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:07:15:095  INFO 7104 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+16:07:15:157  INFO 7104 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+16:07:15:157  INFO 7104 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1215 ms
+16:07:16:111  INFO 7104 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:07:16:198  INFO 7104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+16:07:16:199  INFO 7104 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+16:07:16:201  INFO 7104 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+16:07:16:227  INFO 7104 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+16:07:16:368  INFO 7104 --- [main] org.javatop.item.ItemApplication         : Started ItemApplication in 2.809 seconds (JVM running for 3.285)
+16:07:18:534  INFO 7104 --- [http-nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:07:18:536  INFO 7104 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+16:07:18:538  INFO 7104 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+16:07:18:666  INFO 7104 --- [http-nio-8001-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+16:07:18:950  INFO 7104 --- [http-nio-8001-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+16:19:26:758  INFO 7104 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+16:19:26:770  INFO 7104 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
