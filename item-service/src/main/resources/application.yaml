@@ -5,9 +5,9 @@ spring:
     name: item-service
   cloud:
     nacos:
-      server-addr: 192.168.74.101:8848 # nacos地址
+      server-addr: 192.168.4.100:8848 # nacos地址
   profiles:
-    active: dev
+    active: local
   datasource:
     url: jdbc:mysql://${hm.db.host}:3306/hm-item?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver

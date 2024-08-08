@@ -3,6 +3,7 @@ package org.javatop.cart;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.Environment;
 
@@ -12,6 +13,8 @@ import org.springframework.core.env.Environment;
  * @date 2023-11-27 16:23
  * @description :
  */
+
+@EnableFeignClients(basePackages = "org.javatop.api.client")
 @MapperScan("org.javatop.cart.mapper")
 @SpringBootApplication
 public class CartApplication {
